@@ -1,12 +1,19 @@
 import { useState } from "react";
 
 import "./App.css";
-import GameBox from "./pages/GameBox";
+
+import Quiz from "./pages/Quiz";
+import Timeline from "./components/Timeline";
+import Buttons from "./components/Buttons";
+import SubmitPage from "./pages/SubmitPage";
 
 function App() {
   return (
     <>
-      <GameBox />
+      <Timeline />
+      <Quiz />
+      <Buttons />
+      <SubmitPage />
     </>
   );
 }

@@ -1,0 +1,66 @@
+$color-green: #a0c878;
+$color-half-yellow: #ddeb9d;
+$color-half-pink: #faf6e9;
+$color-dark-white: #fffdf6;
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.quiz-container {
+  background-color: $color-dark-white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 80%;
+  padding: 20px;
+  margin: 0px auto;
+  .question-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: start;
+    border-bottom: 1px solid $color-half-yellow;
+    padding-bottom: 6px;
+    margin-bottom: 25px;
+    .question-text {
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: rgb(24, 21, 21);
+      padding: 4px 10px;
+      width: 80%;
+    }
+    .question-no {
+      color: $color-green;
+      border: 1px solid $color-half-yellow;
+      padding: 4px 10px;
+      border-radius: 2px;
+      font-weight: 500;
+      font-size: 1.2rem;
+      width: 16%;
+    }
+  }
+  .multiple-options {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    width: 100%;
+    gap: 30px;
+    border-radius: 6px;
+
+    .options {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid #ddeb9d;
+      padding: 9px 10px;
+      border-radius: 4px;
+      width: 45%;
+      cursor: pointer;
+      &:hover {
+        background-color: $color-half-yellow;
+      }
+    }
+  }
+}

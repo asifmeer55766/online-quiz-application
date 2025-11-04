@@ -1,0 +1,28 @@
+$color-green: #a0c878;
+$color-half-yellow: #ddeb9d;
+$color-half-pink: #faf6e9;
+$color-dark-white: #fffdf6;
+
+.timeline-container {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0px 20px;
+  border-radius: 6px;
+  .content-box {
+    p {
+      font-weight: 500;
+      color: $color-green;
+      span {
+        color: yellowgreen;
+      }
+    }
+  }
+  .box-left {
+    display: flex;
+    gap: 25px;
+  }
+}

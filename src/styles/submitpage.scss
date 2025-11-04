@@ -1,0 +1,115 @@
+$color-green: #a0c878;
+$color-half-yellow: #ddeb9d;
+$color-half-pink: #faf6e9;
+$color-dark-white: #fffdf6;
+
+.submit-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, $color-half-yellow, $color-half-pink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  text-align: center;
+  padding: 2rem;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: $color-green;
+
+    span {
+      color: #333;
+      font-weight: 700;
+    }
+  }
+
+  p {
+    margin-top: 0.5rem;
+    color: #555;
+    font-size: 1.1rem;
+    color: $color-green;
+    font-weight: 400;
+  }
+
+  .student-form {
+    margin-top: 2rem;
+    width: 40%;
+
+    form {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 1.2rem;
+      width: 100%;
+
+      .input-filed {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+
+        label {
+          font-size: 0.95rem;
+          font-weight: 500;
+          margin-bottom: 0.3rem;
+          color: #444;
+        }
+
+        input {
+          width: 100%;
+          padding: 0.7rem 1rem;
+          border: 1.5px solid $color-green;
+          border-radius: 8px;
+          outline: none;
+          background-color: #fff;
+          transition: 0.2s ease;
+
+          &:focus {
+            border-color: darken($color-green, 10%);
+            box-shadow: 0 0 6px rgba(160, 200, 120, 0.4);
+          }
+        }
+      }
+
+      button {
+        margin: 1rem auto;
+        padding: 0.8rem;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: $color-green;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s ease;
+        letter-spacing: 0.5px;
+        width: 40%;
+        display: block;
+
+        &:hover {
+          background-color: darken($color-green, 10%);
+          transform: translateY(-2px);
+          box-shadow: 0 4px 10px rgba(160, 200, 120, 0.4);
+        }
+      }
+    }
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .submit-container {
+    padding: 1.5rem;
+
+    h1 {
+      font-size: 1.6rem;
+    }
+
+    .student-form {
+      padding: 1.5rem 1.8rem;
+    }
+  }
+}
