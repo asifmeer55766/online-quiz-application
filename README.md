@@ -1,4 +1,3 @@
-````md
 # 🎯 Online Quiz Application
 
 **Online Quiz Application** is a React.js-based interactive quiz platform where users can test their knowledge through multiple-choice questions.  
@@ -51,6 +50,7 @@ online-quiz-app/
 ├── package.json
 └── README.md
 ```
+
 ````
 
 ---
@@ -121,3 +121,4 @@ Frontend Developer | React.js Developer
 ---
 
 ⭐ If you like this project, don’t forget to **star** the repository!
+````
