@@ -5,10 +5,15 @@ $color-dark-white: #fffdf6;
 
 .timeline-container {
   width: 80%;
-  margin: 10px auto;
+  margin: 0px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0%;
+  left: 5%;
+  right: 5%;
+  background-color: white;
 
   padding: 0px 20px;
   border-radius: 6px;

@@ -8,12 +8,20 @@ $color-dark-white: #fffdf6;
 .green {
   color: green;
 }
+.selected {
+  background-color: #a0c878;
+}
+.options.disabled {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
 .quiz-container {
   background-color: $color-dark-white;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   width: 80%;
   padding: 20px;
-  margin: 0px auto;
+  margin: 80px auto 0px auto;
   .question-container {
     display: flex;
     gap: 15px;
@@ -26,6 +34,7 @@ $color-dark-white: #fffdf6;
       font-size: 1.2rem;
       font-weight: 400;
       color: rgb(24, 21, 21);
+
       padding: 4px 10px;
       width: 80%;
     }
@@ -35,7 +44,7 @@ $color-dark-white: #fffdf6;
       padding: 4px 10px;
       border-radius: 2px;
       font-weight: 500;
-      font-size: 1.2rem;
+      font-size: 1.2rem !important;
       width: 16%;
     }
   }

@@ -5,10 +5,15 @@ $color-dark-white: #fffdf6;
 
 .buttons-container {
   width: 80%;
-  margin: 10px auto;
+  margin: 10px auto 0px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  background-color: white;
+  bottom: 4%;
+  left: 5%;
+  right: 5%;
 
   padding: 0px 20px;
   border-radius: 6px;
@@ -48,4 +53,8 @@ $color-dark-white: #fffdf6;
     display: flex;
     gap: 25px;
   }
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }

@@ -3,6 +3,12 @@ $color-half-yellow: #ddeb9d;
 $color-half-pink: #faf6e9;
 $color-dark-white: #fffdf6;
 
+.success {
+  color: green;
+}
+.fail {
+  color: red;
+}
 .submit-container {
   min-height: 100vh;
   background: linear-gradient(135deg, $color-half-yellow, $color-half-pink);
@@ -68,7 +74,7 @@ $color-dark-white: #fffdf6;
           transition: 0.2s ease;
 
           &:focus {
-            border-color: darken($color-green, 10%);
+            border-color: $color-green;
             box-shadow: 0 0 6px rgba(160, 200, 120, 0.4);
           }
         }
@@ -90,7 +96,7 @@ $color-dark-white: #fffdf6;
         display: block;
 
         &:hover {
-          background-color: darken($color-green, 10%);
+          background-color: $color-green;
           transform: translateY(-2px);
           box-shadow: 0 4px 10px rgba(160, 200, 120, 0.4);
         }
@@ -112,4 +118,83 @@ $color-dark-white: #fffdf6;
       padding: 1.5rem 1.8rem;
     }
   }
+}
+
+.table-wrapper {
+  width: 90%;
+  overflow-x: auto; // for mobile responsiveness
+  margin: 20px auto;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+
+    thead {
+      background: linear-gradient(135deg, $color-green, $color-half-yellow);
+
+      th {
+        padding: 14px 16px;
+        text-align: left;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        letter-spacing: 0.3px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+        white-space: nowrap;
+      }
+    }
+
+    tbody {
+      tr {
+        transition: 0.2s ease;
+
+        &:nth-child(even) {
+          background: #f8faff;
+        }
+
+        &:hover {
+          background: #eef4ff;
+          transform: scale(1.01);
+        }
+      }
+
+      td {
+        padding: 10px;
+        font-size: 15px;
+        color: #333;
+        border: 1px solid #e3e8f0;
+        white-space: nowrap;
+        text-align: left;
+      }
+    }
+
+    tfoot {
+      background: #f1f5ff;
+
+      td {
+        padding: 8px;
+        font-weight: 600;
+        color: #444;
+        border-top: 2px solid #d0d7e8;
+      }
+    }
+  }
+}
+
+// Optional: Smooth scroll bar for mobile
+.table-wrapper::-webkit-scrollbar {
+  height: 6px;
+}
+
+.table-wrapper::-webkit-scrollbar-track {
+  background: #e8e8e8;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+  background: #b5b5b5;
+  border-radius: 10px;
 }

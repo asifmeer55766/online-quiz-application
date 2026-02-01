@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "React is one of the most popular JavaScript libraries used in modern web development.\nIt helps developers build user interfaces that update efficiently when data changes.\nWhich of the following best describes the main purpose of React?",
+    "options": [
+      "To manage server-side databases and APIs",
+      "To build dynamic, reusable, and interactive user interfaces",
+      "To design complete operating systems",
+      "To handle file storage and authentication"
+    ],
+    "answer": "To build dynamic, reusable, and interactive user interfaces"
+  },
+  {
+    "id": 2,
+    "question": "JavaScript is a core technology of web development alongside HTML and CSS.\nIt allows developers to add interactivity, logic, and behavior to web pages.\nWhich of the following best defines JavaScript?",
+    "options": [
+      "A markup language for creating static pages",
+      "A styling language used to design layouts",
+      "A scripting language that adds dynamic functionality to websites",
+      "A database query language"
+    ],
+    "answer": "A scripting language that adds dynamic functionality to websites"
+  },
+  {
+    "id": 3,
+    "question": "In React, components are the building blocks of the user interface.\nEach component manages its own logic and rendering.\nWhat is the correct way to create a functional component in React?",
+    "options": [
+      "By using a class that extends React.Component",
+      "By writing a plain function that returns JSX",
+      "By declaring variables inside index.html",
+      "By using CSS styles only"
+    ],
+    "answer": "By writing a plain function that returns JSX"
+  },
+  {
+    "id": 4,
+    "question": "The 'useState' hook in React is one of the most commonly used hooks.\nIt allows you to store and update data within functional components.\nWhich statement correctly explains its purpose?",
+    "options": [
+      "It connects React to the database",
+      "It handles API requests automatically",
+      "It manages state variables and re-renders components when data changes",
+      "It defines styles for components"
+    ],
+    "answer": "It manages state variables and re-renders components when data changes"
+  },
+  {
+    "id": 5,
+    "question": "CSS stands for Cascading Style Sheets and is used to style HTML elements.\nIt controls the look and layout of a web page, including colors, fonts, and spacing.\nWhich of the following correctly describes CSS?",
+    "options": [
+      "A scripting language for backend development",
+      "A markup language for defining page structure",
+      "A style sheet language for describing the visual presentation of HTML",
+      "A database management language"
+    ],
+    "answer": "A style sheet language for describing the visual presentation of HTML"
+  },
+  {
+    "id": 6,
+    "question": "In web development, APIs are essential for communication between different systems.\nThey allow data to be exchanged between a client and a server.\nWhat does API stand for?",
+    "options": [
+      "Application Programming Interface",
+      "Application Performance Index",
+      "Automated Program Interaction",
+      "Application Page Integration"
+    ],
+    "answer": "Application Programming Interface"
+  },
+  {
+    "id": 7,
+    "question": "The 'map()' function in JavaScript is commonly used when working with arrays.\nIt loops through each element and returns a new array with modified data.\nWhich statement best explains what 'map()' does?",
+    "options": [
+      "It filters elements from an array based on a condition",
+      "It creates a new array by transforming each element in the original array",
+      "It removes duplicate values from an array",
+      "It sorts the array in ascending order"
+    ],
+    "answer": "It creates a new array by transforming each element in the original array"
+  },
+  {
+    "id": 8,
+    "question": "The virtual DOM is a key feature of React that improves performance.\nIt is an in-memory representation of the real DOM.\nWhat happens when the state changes in a React component?",
+    "options": [
+      "The real DOM updates immediately without comparison",
+      "React compares the virtual DOM with the real DOM and updates only the changed parts",
+      "The browser refreshes the entire web page",
+      "The component stops rendering completely"
+    ],
+    "answer": "React compares the virtual DOM with the real DOM and updates only the changed parts"
+  },
+  {
+    "id": 9,
+    "question": "Node.js allows developers to use JavaScript outside the browser environment.\nIt is widely used for creating scalable server-side applications.\nWhich of the following is true about Node.js?",
+    "options": [
+      "It is a frontend framework for designing UIs",
+      "It runs JavaScript code on the server using the V8 engine",
+      "It is a database management tool",
+      "It can only be used for mobile apps"
+    ],
+    "answer": "It runs JavaScript code on the server using the V8 engine"
+  },
+  {
+    "id": 10,
+    "question": "MongoDB is a NoSQL database often used with the MERN stack.\nIt stores data in a flexible, JSON-like format instead of traditional tables.\nWhat is the key advantage of using MongoDB?",
+    "options": [
+      "It only supports relational data with fixed schemas",
+      "It allows storing unstructured data and scales easily for large applications",
+      "It requires SQL queries for every operation",
+      "It can only be used with PHP"
+    ],
+    "answer": "It allows storing unstructured data and scales easily for large applications"
+  }
+]
